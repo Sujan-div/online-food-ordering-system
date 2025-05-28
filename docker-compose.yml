@@ -1,0 +1,89 @@
+version: '3.4'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=YourStrongPassword1!
+    ports:
+      - "1433:1433"
+    networks:
+      - foodnet
+    volumes:
+      - sql_data:/var/opt/mssql
+    healthcheck:
+      test: ["CMD-SHELL", "(/bin/bash -c '</dev/tcp/localhost/1433') || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  userservice:
+    build: ./UserService
+    environment:
+      - ASPNETCORE_URLS=http://+:80
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=UserDb;User Id=sa;Password=YourStrongPassword1!;Encrypt=False
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+    ports:
+      - "5001:80"
+    networks:
+      - foodnet
+
+  restaurantservice:
+    build: ./RestaurantService
+    environment:
+      - ASPNETCORE_URLS=http://+:80
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=RestaurantDb;User Id=sa;Password=YourStrongPassword1!;Encrypt=False
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+    ports:
+      - "5002:80"
+    networks:
+      - foodnet
+
+  orderservice:
+    build: ./OrderService
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=OrderDb;User Id=sa;Password=YourStrongPassword1!;Encrypt=False
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+    ports:
+      - "5003:80"
+    networks:
+      - foodnet
+
+  walletservice:
+    build: ./WalletService
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=WalletDb;User Id=sa;Password=YourStrongPassword1!;Encrypt=False
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+    ports:
+      - "5004:80"
+    networks:
+      - foodnet
+
+  paymentservice:
+    build: ./PaymentService
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=PaymentDb;User Id=sa;Password=YourStrongPassword1!;Encrypt=False
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+    ports:
+      - "5005:80"
+    networks:
+      - foodnet
+
+networks:
+  foodnet:
+    driver: bridge
+
+volumes:
+  sql_data:

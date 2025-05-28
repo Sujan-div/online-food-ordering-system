@@ -1,0 +1,41 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+
+# Visual Studio Code settings
+.vscode/
+
+# Rider settings
+.idea/
+
+# Others
+*.log
+*.cache
+*.db
+*.pdb
+*.mdb
+
+# ASP.NET Core secrets
+secrets.json
+
+# dotCover
+*.dotCover
+
+# Backup & temp files
+*.bak
+*.tmp
+*.temp
+*~ 
+
+# Publish output
+publish/
+
+# Nuke build output
+output/
+
+# Docker volumes (if any used for development)
+**/volumes/
