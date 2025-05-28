@@ -1,0 +1,115 @@
+1
+Programobject
+	Program()Program.Program()Ä
+(OrderService.Controllers.OrderController'Microsoft.AspNetCore.Mvc.ControllerBaseobjectŸ
+VOrderController(OrderService.Services.IOrderService, OrderService.Data.OrderDbContext)OrderService.Controllers.OrderController.OrderController(OrderService.Services.IOrderService, OrderService.Data.OrderDbContext)=
+GetAll()1OrderService.Controllers.OrderController.GetAll()ã
+/CreateOrder(OrderService.Models.CreateOrderDto)XOrderService.Controllers.OrderController.CreateOrder(OrderService.Models.CreateOrderDto)U
+GetById(System.Guid)=OrderService.Controllers.OrderController.GetById(System.Guid)]
+GetByUserId(System.Guid)AOrderService.Controllers.OrderController.GetByUserId(System.Guid)o
+!UpdateStatus(System.Guid, string)JOrderService.Controllers.OrderController.UpdateStatus(System.Guid, string)S
+Delete(System.Guid)<OrderService.Controllers.OrderController.Delete(System.Guid)–
+ OrderService.Data.OrderDbContext'Microsoft.EntityFrameworkCore.DbContextobjectÊ
+`OrderDbContext(Microsoft.EntityFrameworkCore.DbContextOptions<OrderService.Data.OrderDbContext>)ÅOrderService.Data.OrderDbContext.OrderDbContext(Microsoft.EntityFrameworkCore.DbContextOptions<OrderService.Data.OrderDbContext>)õ
+;OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)\OrderService.Data.OrderDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)9
+
+Orders.get+OrderService.Data.OrderDbContext.Orders.get9
+
+Orders.set+OrderService.Data.OrderDbContext.Orders.setπ
+'OrderService.Data.OrderDbContextFactoryobjectJMicrosoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory<TContext>^
+CreateDbContext(string[])AOrderService.Data.OrderDbContextFactory.CreateDbContext(string[])Z
+OrderDbContextFactory()?OrderService.Data.OrderDbContextFactory.OrderDbContextFactory()§
+%OrderService.Migrations.InitialCreate2Microsoft.EntityFrameworkCore.Migrations.Migrationobject§
+=Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)cOrderService.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)®
+?Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)eOrderService.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)¢
+<BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)bOrderService.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)H
+InitialCreate()5OrderService.Migrations.InitialCreate.InitialCreate()î
+3OrderService.Migrations.OrderDbContextModelSnapshot:Microsoft.EntityFrameworkCore.Infrastructure.ModelSnapshotobject§
+6BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)jOrderService.Migrations.OrderDbContextModelSnapshot.BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)r
+OrderDbContextModelSnapshot()QOrderService.Migrations.OrderDbContextModelSnapshot.OrderDbContextModelSnapshot()˜
+"OrderService.Models.CreateOrderDtoobjectG
+CreateOrderDto()3OrderService.Models.CreateOrderDto.CreateOrderDto();
+
+UserId.get-OrderService.Models.CreateOrderDto.UserId.get;
+
+UserId.set-OrderService.Models.CreateOrderDto.UserId.setG
+RestaurantId.get3OrderService.Models.CreateOrderDto.RestaurantId.getG
+RestaurantId.set3OrderService.Models.CreateOrderDto.RestaurantId.set9
+	Items.get,OrderService.Models.CreateOrderDto.Items.get9
+	Items.set,OrderService.Models.CreateOrderDto.Items.set—
+OrderService.Models.JwtSettingsobject>
+JwtSettings()-OrderService.Models.JwtSettings.JwtSettings()2
+Key.get'OrderService.Models.JwtSettings.Key.get2
+Key.set'OrderService.Models.JwtSettings.Key.set8
+
+Issuer.get*OrderService.Models.JwtSettings.Issuer.get8
+
+Issuer.set*OrderService.Models.JwtSettings.Issuer.set<
+Audience.get,OrderService.Models.JwtSettings.Audience.get<
+Audience.set,OrderService.Models.JwtSettings.Audience.setF
+ExpiryMinutes.get1OrderService.Models.JwtSettings.ExpiryMinutes.getF
+ExpiryMinutes.set1OrderService.Models.JwtSettings.ExpiryMinutes.set·
+OrderService.Models.Orderobject,
+Order()!OrderService.Models.Order.Order()4
+OrderId.get%OrderService.Models.Order.OrderId.get4
+OrderId.set%OrderService.Models.Order.OrderId.set2
+
+UserId.get$OrderService.Models.Order.UserId.get2
+
+UserId.set$OrderService.Models.Order.UserId.set>
+RestaurantId.get*OrderService.Models.Order.RestaurantId.get>
+RestaurantId.set*OrderService.Models.Order.RestaurantId.set<
+TotalAmount.get)OrderService.Models.Order.TotalAmount.get<
+TotalAmount.set)OrderService.Models.Order.TotalAmount.set8
+OrderDate.get'OrderService.Models.Order.OrderDate.get8
+OrderDate.set'OrderService.Models.Order.OrderDate.set2
+
+Status.get$OrderService.Models.Order.Status.get2
+
+Status.set$OrderService.Models.Order.Status.set0
+	Items.get#OrderService.Models.Order.Items.get0
+	Items.set#OrderService.Models.Order.Items.set%
+#OrderService.Services.IOrderService,
+*OrderService.Repositories.IOrderRepositoryë
+OrderService.Models.OrderItemobject8
+OrderItem())OrderService.Models.OrderItem.OrderItem()@
+OrderItemId.get-OrderService.Models.OrderItem.OrderItemId.get@
+OrderItemId.set-OrderService.Models.OrderItem.OrderItemId.set8
+OrderId.get)OrderService.Models.OrderItem.OrderId.get8
+OrderId.set)OrderService.Models.OrderItem.OrderId.set>
+FoodItemId.get,OrderService.Models.OrderItem.FoodItemId.get>
+FoodItemId.set,OrderService.Models.OrderItem.FoodItemId.set2
+Name.get&OrderService.Models.OrderItem.Name.get2
+Name.set&OrderService.Models.OrderItem.Name.set4
+	Price.get'OrderService.Models.OrderItem.Price.get4
+	Price.set'OrderService.Models.OrderItem.Price.set:
+Quantity.get*OrderService.Models.OrderItem.Quantity.get:
+Quantity.set*OrderService.Models.OrderItem.Quantity.set4
+	Order.get'OrderService.Models.OrderItem.Order.get4
+	Order.set'OrderService.Models.OrderItem.Order.set—
+ OrderService.Models.OrderItemDtoobjectA
+OrderItemDto()/OrderService.Models.OrderItemDto.OrderItemDto()A
+FoodItemId.get/OrderService.Models.OrderItemDto.FoodItemId.getA
+FoodItemId.set/OrderService.Models.OrderItemDto.FoodItemId.set5
+Name.get)OrderService.Models.OrderItemDto.Name.get5
+Name.set)OrderService.Models.OrderItemDto.Name.set7
+	Price.get*OrderService.Models.OrderItemDto.Price.get7
+	Price.set*OrderService.Models.OrderItemDto.Price.set=
+Quantity.get-OrderService.Models.OrderItemDto.Quantity.get=
+Quantity.set-OrderService.Models.OrderItemDto.Quantity.set¢
+)OrderService.Repositories.OrderRepositoryobject*OrderService.Repositories.IOrderRepositoryê
+1OrderRepository(OrderService.Data.OrderDbContext)[OrderService.Repositories.OrderRepository.OrderRepository(OrderService.Data.OrderDbContext)T
+GetAllOrdersAsync()=OrderService.Repositories.OrderRepository.GetAllOrdersAsync()j
+GetOrderByIdAsync(System.Guid)HOrderService.Repositories.OrderRepository.GetOrderByIdAsync(System.Guid)t
+#GetOrdersByUserIdAsync(System.Guid)MOrderService.Repositories.OrderRepository.GetOrdersByUserIdAsync(System.Guid)Ñ
++CreateOrderAsync(OrderService.Models.Order)UOrderService.Repositories.OrderRepository.CreateOrderAsync(OrderService.Models.Order)Ñ
++UpdateOrderStatusAsync(System.Guid, string)UOrderService.Repositories.OrderRepository.UpdateOrderStatusAsync(System.Guid, string)h
+DeleteOrderAsync(System.Guid)GOrderService.Repositories.OrderRepository.DeleteOrderAsync(System.Guid)Ô
+"OrderService.Services.OrderServiceobject#OrderService.Services.IOrderServiceó
+8OrderService(OrderService.Repositories.IOrderRepository)[OrderService.Services.OrderService.OrderService(OrderService.Repositories.IOrderRepository)M
+GetAllOrdersAsync()6OrderService.Services.OrderService.GetAllOrdersAsync()c
+GetOrderByIdAsync(System.Guid)AOrderService.Services.OrderService.GetOrderByIdAsync(System.Guid)m
+#GetOrdersByUserIdAsync(System.Guid)FOrderService.Services.OrderService.GetOrdersByUserIdAsync(System.Guid)}
++CreateOrderAsync(OrderService.Models.Order)NOrderService.Services.OrderService.CreateOrderAsync(OrderService.Models.Order)}
++UpdateOrderStatusAsync(System.Guid, string)NOrderService.Services.OrderService.UpdateOrderStatusAsync(System.Guid, string)a
+DeleteOrderAsync(System.Guid)@OrderService.Services.OrderService.DeleteOrderAsync(System.Guid)

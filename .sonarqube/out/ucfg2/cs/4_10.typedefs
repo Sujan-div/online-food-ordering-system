@@ -1,0 +1,82 @@
+Á
+&UserService.Controllers.AuthController'Microsoft.AspNetCore.Mvc.ControllerBaseobjectª
+AuthController(UserService.Repositories.IUserRepository, Microsoft.Extensions.Options.IOptions<UserService.Models.JwtSettings>)¦UserService.Controllers.AuthController.AuthController(UserService.Repositories.IUserRepository, Microsoft.Extensions.Options.IOptions<UserService.Models.JwtSettings>)m
+!Register(UserService.Models.User)HUserService.Controllers.AuthController.Register(UserService.Models.User)Q
+Login(LoginRequest):UserService.Controllers.AuthController.Login(LoginRequest)w
+&GenerateToken(UserService.Models.User)MUserService.Controllers.AuthController.GenerateToken(UserService.Models.User)1
+Programobject
+	Program()Program.Program()é
+&UserService.Controllers.UserController'Microsoft.AspNetCore.Mvc.ControllerBaseobject
+1UserController(UserService.Services.IUserService)XUserService.Controllers.UserController.UserController(UserService.Services.IUserService)E
+GetAllUsers()4UserService.Controllers.UserController.GetAllUsers()[
+GetUserById(System.Guid)?UserService.Controllers.UserController.GetUserById(System.Guid)q
+#CreateUser(UserService.Models.User)JUserService.Controllers.UserController.CreateUser(UserService.Models.User)‹
+0UpdateUser(System.Guid, UserService.Models.User)WUserService.Controllers.UserController.UpdateUser(System.Guid, UserService.Models.User)Y
+DeleteUser(System.Guid)>UserService.Controllers.UserController.DeleteUser(System.Guid)Ÿ
+$UserService.Migrations.InitialCreate2Microsoft.EntityFrameworkCore.Migrations.Migrationobject£
+=Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)bUserService.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)§
+?Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)dUserService.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)¡
+<BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)aUserService.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)G
+InitialCreate()4UserService.Migrations.InitialCreate.InitialCreate()Œ
+1UserService.Migrations.UserDbContextModelSnapshot:Microsoft.EntityFrameworkCore.Infrastructure.ModelSnapshotobject¢
+6BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)hUserService.Migrations.UserDbContextModelSnapshot.BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)n
+UserDbContextModelSnapshot()NUserService.Migrations.UserDbContextModelSnapshot.UserDbContextModelSnapshot()å
+LoginRequestobject-
+LoginRequest()LoginRequest.LoginRequest()#
+	Email.getLoginRequest.Email.get#
+	Email.setLoginRequest.Email.set)
+Password.getLoginRequest.Password.get)
+Password.setLoginRequest.Password.set¯
+UserService.Models.Userobject(
+User()UserService.Models.User.User()0
+
+UserId.get"UserService.Models.User.UserId.get0
+
+UserId.set"UserService.Models.User.UserId.set4
+FullName.get$UserService.Models.User.FullName.get4
+FullName.set$UserService.Models.User.FullName.set.
+	Email.get!UserService.Models.User.Email.get.
+	Email.set!UserService.Models.User.Email.set<
+PasswordHash.get(UserService.Models.User.PasswordHash.get<
+PasswordHash.set(UserService.Models.User.PasswordHash.set.
+	Phone.get!UserService.Models.User.Phone.get.
+	Phone.set!UserService.Models.User.Phone.set2
+Address.get#UserService.Models.User.Address.get2
+Address.set#UserService.Models.User.Address.set6
+CreatedAt.get%UserService.Models.User.CreatedAt.get6
+CreatedAt.set%UserService.Models.User.CreatedAt.set*
+(UserService.Repositories.IUserRepository»
+UserService.Data.UserDbContext'Microsoft.EntityFrameworkCore.DbContextobjectÝ
+]UserDbContext(Microsoft.EntityFrameworkCore.DbContextOptions<UserService.Data.UserDbContext>)|UserService.Data.UserDbContext.UserDbContext(Microsoft.EntityFrameworkCore.DbContextOptions<UserService.Data.UserDbContext>)™
+;OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)ZUserService.Data.UserDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)5
+	Users.get(UserService.Data.UserDbContext.Users.get5
+	Users.set(UserService.Data.UserDbContext.Users.setØ
+ UserService.Services.UserServiceobject!UserService.Services.IUserService
+5UserService(UserService.Repositories.IUserRepository)VUserService.Services.UserService.UserService(UserService.Repositories.IUserRepository)I
+GetAllUsersAsync()3UserService.Services.UserService.GetAllUsersAsync()_
+GetUserByIdAsync(System.Guid)>UserService.Services.UserService.GetUserByIdAsync(System.Guid)u
+(CreateUserAsync(UserService.Models.User)IUserService.Services.UserService.CreateUserAsync(UserService.Models.User)u
+(UpdateUserAsync(UserService.Models.User)IUserService.Services.UserService.UpdateUserAsync(UserService.Models.User)]
+DeleteUserAsync(System.Guid)=UserService.Services.UserService.DeleteUserAsync(System.Guid)#
+!UserService.Services.IUserServiceÞ
+'UserService.Repositories.UserRepositoryobject(UserService.Repositories.IUserRepositoryˆ
+.UserRepository(UserService.Data.UserDbContext)VUserService.Repositories.UserRepository.UserRepository(UserService.Data.UserDbContext)P
+GetAllUsersAsync():UserService.Repositories.UserRepository.GetAllUsersAsync()f
+GetUserByIdAsync(System.Guid)EUserService.Repositories.UserRepository.GetUserByIdAsync(System.Guid)|
+(CreateUserAsync(UserService.Models.User)PUserService.Repositories.UserRepository.CreateUserAsync(UserService.Models.User)|
+(UpdateUserAsync(UserService.Models.User)PUserService.Repositories.UserRepository.UpdateUserAsync(UserService.Models.User)d
+DeleteUserAsync(System.Guid)DUserService.Repositories.UserRepository.DeleteUserAsync(System.Guid)b
+GetUserByEmailAsync(object)CUserService.Repositories.UserRepository.GetUserByEmailAsync(object)v
+%AddUserAsync(UserService.Models.User)MUserService.Repositories.UserRepository.AddUserAsync(UserService.Models.User)Ç
+UserService.Models.JwtSettingsobject=
+JwtSettings(),UserService.Models.JwtSettings.JwtSettings()1
+Key.get&UserService.Models.JwtSettings.Key.get1
+Key.set&UserService.Models.JwtSettings.Key.set7
+
+Issuer.get)UserService.Models.JwtSettings.Issuer.get7
+
+Issuer.set)UserService.Models.JwtSettings.Issuer.set;
+Audience.get+UserService.Models.JwtSettings.Audience.get;
+Audience.set+UserService.Models.JwtSettings.Audience.setE
+ExpiryMinutes.get0UserService.Models.JwtSettings.ExpiryMinutes.getE
+ExpiryMinutes.set0UserService.Models.JwtSettings.ExpiryMinutes.set

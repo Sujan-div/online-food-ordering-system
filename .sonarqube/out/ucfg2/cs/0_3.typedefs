@@ -1,0 +1,84 @@
+1
+Programobject
+	Program()Program.Program()ä
+"WalletService.Data.WalletDbContext'Microsoft.EntityFrameworkCore.DbContextobjectî
+cWalletDbContext(Microsoft.EntityFrameworkCore.DbContextOptions<WalletService.Data.WalletDbContext>)†WalletService.Data.WalletDbContext.WalletDbContext(Microsoft.EntityFrameworkCore.DbContextOptions<WalletService.Data.WalletDbContext>)
+;OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)^WalletService.Data.WalletDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)=
+Wallets.get.WalletService.Data.WalletDbContext.Wallets.get=
+Wallets.set.WalletService.Data.WalletDbContext.Wallets.setÛ
+ WalletService.Models.JwtSettingsobject?
+JwtSettings().WalletService.Models.JwtSettings.JwtSettings()3
+Key.get(WalletService.Models.JwtSettings.Key.get3
+Key.set(WalletService.Models.JwtSettings.Key.set9
+
+Issuer.get+WalletService.Models.JwtSettings.Issuer.get9
+
+Issuer.set+WalletService.Models.JwtSettings.Issuer.set=
+Audience.get-WalletService.Models.JwtSettings.Audience.get=
+Audience.set-WalletService.Models.JwtSettings.Audience.setG
+ExpiryMinutes.get2WalletService.Models.JwtSettings.ExpiryMinutes.getG
+ExpiryMinutes.set2WalletService.Models.JwtSettings.ExpiryMinutes.set—
+WalletService.Models.Walletobject0
+Wallet()$WalletService.Models.Wallet.Wallet()8
+WalletId.get(WalletService.Models.Wallet.WalletId.get8
+WalletId.set(WalletService.Models.Wallet.WalletId.set4
+
+UserId.get&WalletService.Models.Wallet.UserId.get4
+
+UserId.set&WalletService.Models.Wallet.UserId.set6
+Balance.get'WalletService.Models.Wallet.Balance.get6
+Balance.set'WalletService.Models.Wallet.Balance.set:
+CreatedAt.get)WalletService.Models.Wallet.CreatedAt.get:
+CreatedAt.set)WalletService.Models.Wallet.CreatedAt.set:
+UpdatedAt.get)WalletService.Models.Wallet.UpdatedAt.get:
+UpdatedAt.set)WalletService.Models.Wallet.UpdatedAt.setõ
+*WalletService.Controllers.WalletController'Microsoft.AspNetCore.Mvc.ControllerBaseobject
+7WalletController(WalletService.Services.IWalletService)bWalletService.Controllers.WalletController.WalletController(WalletService.Services.IWalletService)?
+GetAll()3WalletService.Controllers.WalletController.GetAll()W
+GetById(System.Guid)?WalletService.Controllers.WalletController.GetById(System.Guid)_
+GetByUserId(System.Guid)CWalletService.Controllers.WalletController.GetByUserId(System.Guid)u
+#Create(WalletService.Models.Wallet)NWalletService.Controllers.WalletController.Create(WalletService.Models.Wallet)U
+Delete(System.Guid)>WalletService.Controllers.WalletController.Delete(System.Guid)g
+Credit(System.Guid, decimal)GWalletService.Controllers.WalletController.Credit(System.Guid, decimal)e
+Debit(System.Guid, decimal)FWalletService.Controllers.WalletController.Debit(System.Guid, decimal)]
+GetBalance(System.Guid)BWalletService.Controllers.WalletController.GetBalance(System.Guid)Å
+*WalletService.Migrations.UpdateWalletModel2Microsoft.EntityFrameworkCore.Migrations.Migrationobject©
+=Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)hWalletService.Migrations.UpdateWalletModel.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)­
+?Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)jWalletService.Migrations.UpdateWalletModel.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)§
+<BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)gWalletService.Migrations.UpdateWalletModel.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)U
+UpdateWalletModel()>WalletService.Migrations.UpdateWalletModel.UpdateWalletModel()ê
+WalletService.Migrations.Init2Microsoft.EntityFrameworkCore.Migrations.Migrationobjectœ
+=Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)[WalletService.Migrations.Init.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder) 
+?Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)]WalletService.Migrations.Init.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)š
+<BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)ZWalletService.Migrations.Init.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder).
+Init()$WalletService.Migrations.Init.Init().
+,WalletService.Repositories.IWalletRepositoryÌ
++WalletService.Migrations.UpdateWalletModel22Microsoft.EntityFrameworkCore.Migrations.Migrationobjectª
+=Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)iWalletService.Migrations.UpdateWalletModel2.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)®
+?Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)kWalletService.Migrations.UpdateWalletModel2.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)¨
+<BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)hWalletService.Migrations.UpdateWalletModel2.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)X
+UpdateWalletModel2()@WalletService.Migrations.UpdateWalletModel2.UpdateWalletModel2()œ
+5WalletService.Migrations.WalletDbContextModelSnapshot:Microsoft.EntityFrameworkCore.Infrastructure.ModelSnapshotobject¦
+6BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)lWalletService.Migrations.WalletDbContextModelSnapshot.BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)v
+WalletDbContextModelSnapshot()TWalletService.Migrations.WalletDbContextModelSnapshot.WalletDbContextModelSnapshot()	
++WalletService.Repositories.WalletRepositoryobject,WalletService.Repositories.IWalletRepository˜
+4WalletRepository(WalletService.Data.WalletDbContext)`WalletService.Repositories.WalletRepository.WalletRepository(WalletService.Data.WalletDbContext)X
+GetAllWalletsAsync()@WalletService.Repositories.WalletRepository.GetAllWalletsAsync()n
+GetWalletByIdAsync(System.Guid)KWalletService.Repositories.WalletRepository.GetWalletByIdAsync(System.Guid)v
+#GetWalletByUserIdAsync(System.Guid)OWalletService.Repositories.WalletRepository.GetWalletByUserIdAsync(System.Guid)Œ
+.CreateWalletAsync(WalletService.Models.Wallet)ZWalletService.Repositories.WalletRepository.CreateWalletAsync(WalletService.Models.Wallet)l
+DeleteWalletAsync(System.Guid)JWalletService.Repositories.WalletRepository.DeleteWalletAsync(System.Guid)r
+!CreditAsync(System.Guid, decimal)MWalletService.Repositories.WalletRepository.CreditAsync(System.Guid, decimal)p
+ DebitAsync(System.Guid, decimal)LWalletService.Repositories.WalletRepository.DebitAsync(System.Guid, decimal)h
+GetBalanceAsync(System.Guid)HWalletService.Repositories.WalletRepository.GetBalanceAsync(System.Guid)'
+%WalletService.Services.IWalletService†	
+$WalletService.Services.WalletServiceobject%WalletService.Services.IWalletServiceŸ
+;WalletService(WalletService.Repositories.IWalletRepository)`WalletService.Services.WalletService.WalletService(WalletService.Repositories.IWalletRepository)Q
+GetAllWalletsAsync()9WalletService.Services.WalletService.GetAllWalletsAsync()g
+GetWalletByIdAsync(System.Guid)DWalletService.Services.WalletService.GetWalletByIdAsync(System.Guid)o
+#GetWalletByUserIdAsync(System.Guid)HWalletService.Services.WalletService.GetWalletByUserIdAsync(System.Guid)…
+.CreateWalletAsync(WalletService.Models.Wallet)SWalletService.Services.WalletService.CreateWalletAsync(WalletService.Models.Wallet)…
+.UpdateWalletAsync(WalletService.Models.Wallet)SWalletService.Services.WalletService.UpdateWalletAsync(WalletService.Models.Wallet)e
+DeleteWalletAsync(System.Guid)CWalletService.Services.WalletService.DeleteWalletAsync(System.Guid)…
+.UpdateBalanceAsync(System.Guid, decimal, bool)SWalletService.Services.WalletService.UpdateBalanceAsync(System.Guid, decimal, bool)a
+GetBalanceAsync(System.Guid)AWalletService.Services.WalletService.GetBalanceAsync(System.Guid)

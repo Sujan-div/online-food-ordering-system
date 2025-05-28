@@ -1,0 +1,21 @@
+†
+{C:\Users\msi bravo\Desktop\FoodOrderingSystem\OrderService\obj\Debug\net7.0\OrderService.MvcApplicationPartsAssemblyInfo.csutf-8s
+hC:\Users\msi bravo\Desktop\FoodOrderingSystem\OrderService\obj\Debug\net7.0\OrderService.AssemblyInfo.csutf-8…
+zC:\Users\msi bravo\Desktop\FoodOrderingSystem\OrderService\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.csutf-8u
+jC:\Users\msi bravo\Desktop\FoodOrderingSystem\OrderService\obj\Debug\net7.0\OrderService.GlobalUsings.g.csutf-8\
+SC:\Users\msi bravo\Desktop\FoodOrderingSystem\OrderService\Services\OrderService.csutf-8]
+TC:\Users\msi bravo\Desktop\FoodOrderingSystem\OrderService\Services\IOrderService.csutf-8c
+ZC:\Users\msi bravo\Desktop\FoodOrderingSystem\OrderService\Repositories\OrderRepository.csutf-8d
+[C:\Users\msi bravo\Desktop\FoodOrderingSystem\OrderService\Repositories\IOrderRepository.csutf-8N
+EC:\Users\msi bravo\Desktop\FoodOrderingSystem\OrderService\Program.csutf-8Z
+QC:\Users\msi bravo\Desktop\FoodOrderingSystem\OrderService\Models\OrderItemDto.csutf-8W
+NC:\Users\msi bravo\Desktop\FoodOrderingSystem\OrderService\Models\OrderItem.csutf-8S
+JC:\Users\msi bravo\Desktop\FoodOrderingSystem\OrderService\Models\Order.csutf-8Y
+PC:\Users\msi bravo\Desktop\FoodOrderingSystem\OrderService\Models\JwtSettings.csutf-8\
+SC:\Users\msi bravo\Desktop\FoodOrderingSystem\OrderService\Models\CreateOrderDto.csutf-8o
+dC:\Users\msi bravo\Desktop\FoodOrderingSystem\OrderService\Migrations\OrderDbContextModelSnapshot.csutf-8y
+nC:\Users\msi bravo\Desktop\FoodOrderingSystem\OrderService\Migrations\20250512104152_InitialCreate.Designer.csutf-8n
+eC:\Users\msi bravo\Desktop\FoodOrderingSystem\OrderService\Migrations\20250512104152_InitialCreate.csutf-8a
+XC:\Users\msi bravo\Desktop\FoodOrderingSystem\OrderService\Data\OrderDbContextFactory.csutf-8Z
+QC:\Users\msi bravo\Desktop\FoodOrderingSystem\OrderService\Data\OrderDbContext.csutf-8b
+YC:\Users\msi bravo\Desktop\FoodOrderingSystem\OrderService\Controllers\OrderController.csutf-8

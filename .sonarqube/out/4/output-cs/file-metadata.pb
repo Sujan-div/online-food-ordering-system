@@ -1,0 +1,19 @@
+„
+yC:\Users\msi bravo\Desktop\FoodOrderingSystem\UserService\obj\Debug\net7.0\UserService.MvcApplicationPartsAssemblyInfo.csutf-8q
+fC:\Users\msi bravo\Desktop\FoodOrderingSystem\UserService\obj\Debug\net7.0\UserService.AssemblyInfo.csutf-8„
+yC:\Users\msi bravo\Desktop\FoodOrderingSystem\UserService\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.csutf-8s
+hC:\Users\msi bravo\Desktop\FoodOrderingSystem\UserService\obj\Debug\net7.0\UserService.GlobalUsings.g.csutf-8Z
+QC:\Users\msi bravo\Desktop\FoodOrderingSystem\UserService\Services\UserService.csutf-8b
+YC:\Users\msi bravo\Desktop\FoodOrderingSystem\UserService\Repositories\IUserRepository.csutf-8[
+RC:\Users\msi bravo\Desktop\FoodOrderingSystem\UserService\Services\IUserService.csutf-8a
+XC:\Users\msi bravo\Desktop\FoodOrderingSystem\UserService\Repositories\UserRepository.csutf-8M
+DC:\Users\msi bravo\Desktop\FoodOrderingSystem\UserService\Program.csutf-8Q
+HC:\Users\msi bravo\Desktop\FoodOrderingSystem\UserService\Models\User.csutf-8Y
+PC:\Users\msi bravo\Desktop\FoodOrderingSystem\UserService\Models\LoginRequest.csutf-8X
+OC:\Users\msi bravo\Desktop\FoodOrderingSystem\UserService\Models\JwtSettings.csutf-8m
+bC:\Users\msi bravo\Desktop\FoodOrderingSystem\UserService\Migrations\UserDbContextModelSnapshot.csutf-8x
+mC:\Users\msi bravo\Desktop\FoodOrderingSystem\UserService\Migrations\20250506045053_InitialCreate.Designer.csutf-8m
+dC:\Users\msi bravo\Desktop\FoodOrderingSystem\UserService\Migrations\20250506045053_InitialCreate.csutf-8X
+OC:\Users\msi bravo\Desktop\FoodOrderingSystem\UserService\Data\UserDbContext.csutf-8`
+WC:\Users\msi bravo\Desktop\FoodOrderingSystem\UserService\Controllers\UserController.csutf-8`
+WC:\Users\msi bravo\Desktop\FoodOrderingSystem\UserService\Controllers\AuthController.csutf-8

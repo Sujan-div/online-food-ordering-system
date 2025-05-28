@@ -1,0 +1,1 @@
+fRPC:\Users\msi bravo\Desktop\FoodOrderingSystem\WalletService\WalletService.csproj¢net7.0òCSharp11

@@ -1,0 +1,7 @@
+organization=sujan-div
+projectKey=Sujan-div_online-food-ordering-system
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.63931
+dashboardUrl=https://sonarcloud.io/dashboard?id=Sujan-div_online-food-ordering-system
+ceTaskId=AZcXJe2Jz36qEfNK5R5Z
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZcXJe2Jz36qEfNK5R5Z
